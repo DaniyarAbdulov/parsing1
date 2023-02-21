@@ -98,7 +98,7 @@ def parser():
             print(IndexError)
             pass
         except Exception as e:
-            print('Error', e)
+            print('Error here', e)
 
     conn.commit()
     conn.close()
